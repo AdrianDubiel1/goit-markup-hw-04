@@ -47,6 +47,7 @@ body {
   color: var(--description-color);
   line-height: 1.17;
 }
+
 .link-addres-footer {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
@@ -247,6 +248,9 @@ header {
 }
 .mail {
   padding-right: 30px;
+  display: flex;
+  line-height: 1.17;
+  color: var(--description-color);
 }
 
 .section {
@@ -323,6 +327,7 @@ img {
   display: flex;
   margin-right: 10px;
   fill: var(--description-color);
+  line-height: 1.17;
 }
 .icon-mail > svg:hover,
 .icon-mail > svg:focus {
@@ -384,13 +389,13 @@ img {
   letter-spacing: 0.03em;
   line-height: 1.17;
   color: #ffffff;
-  padding: 72px 756px 20px 70px;
+  padding: 72px 648px 20px 70px;
 }
 .footer {
   display: flex;
 }
 .footer-addres {
-  max-width: 246px;
+  max-width: 260px;
 }
 .social-icon-footer {
   display: flex;
@@ -402,7 +407,7 @@ img {
 .icons-list-footer {
   display: flex;
   justify-content: space-between;
-  padding: 0 663px 100px 70px;
+  padding: 0 648px 100px 70px;
 }
 .social-icon-footer:hover,
 .social-icon-footer:focus {
