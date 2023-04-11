@@ -326,11 +326,10 @@ img {
 .icon-mail > svg {
   display: flex;
   margin-right: 10px;
-  fill: var(--description-color);
   line-height: 1.17;
 }
-.icon-mail > svg:hover,
-.icon-mail > svg:focus {
+.icon-mail:hover,
+.icon-mail:focus {
   fill: var(--active-color);
 }
 .icon-lorem {
@@ -368,18 +367,18 @@ img {
   align-items: center;
   column-gap: 30px;
 }
-.clients-icon > svg {
+.clients-icon {
   fill: #afb1b8;
+  width: 106px;
 }
 .clients-icon-background {
   width: 170px;
-  height: 92px;
   padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-.clients-icon > svg:hover,
-.clients-icon > svg:focus {
+.clients-icon:hover,
+.clients-icon:focus {
   fill: var(--active-color);
   cursor: pointer;
 }
